@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Great+Vibes&family=Special+Elite&display=swap');
+
+body {
+    margin: 50px;
+    background-color: rgba(171, 173, 110, 0.904);
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+
+a {
+    color: #a11b1b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.container {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#foto_da_banda {
+    display: block;
+    margin: 0 auto 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    border: 5px solid rgba(171, 173, 110, 0.904);
+}
+.textos {
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.textos a {
+    color: rgba(0, 0, 0, 0.904);
+    font-weight: bold;
+    text-decoration: none;
+}
+.textos h2 {
+    font-size: 35px;
+}
+.album-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.imagens-banda {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.imagens-banda img {
+    border-radius: 10%;
+    border: 5px solid rgba(171, 173, 110, 0.904);
+}
+
+.album {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.album-info {
+    display: flex;
+    width: 100%;
+}
+.album-title, .album-content, .album-image {
+    padding: 10px;
+}
+.album-title {
+    font-size: 25px;
+    width: 30%;
+}
+.album-content {
+    font-size: 18px;
+    width: 40%;
+}
+.album-image {
+    width: 30%;
+    text-align: center;
+}
+.album-content ol {
+    padding-left: 20px;
+}
+.album-title span {
+    font-weight: bold;
+    cursor: pointer;
+}
+.album-content.hidden {
+    display: none;
+}
+a img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+}
